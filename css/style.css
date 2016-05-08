@@ -1,0 +1,120 @@
+﻿* { 
+	margin: 0;
+	padding: 0;
+}
+.body {
+margin: 40px;
+width: 1000px;
+
+}
+/*HEADER*/
+.header {
+	background-color: white;
+	margin-bottom: 30px;
+	
+}
+
+.logo {
+	display: block;
+	padding: 40px 0px;
+}
+.headerMenu {
+		background-color: grey;	
+}
+
+.headerMenu li {
+	display: inline-block;
+	color: white;
+	font: 22px Arial, sans-serif;
+	margin: 20px;
+	vertical-align: middle;
+	width: 100px;	
+}
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+/*SIDEBAR*/
+
+
+.sidebar {
+	background-color: white;
+	width: 20%;
+	position: absolute;	
+	margin-right: 20px;
+	border: 1px solid #bdbdbd;
+}
+
+.menu {
+	 
+	 color: black;
+	 padding: 15px 20px;
+	 text-align: left;
+	 border: 1px solid #bdbdbd;
+	 font: 16px Arial, sans-serif;
+	 
+}
+
+
+a {
+	text-decoration: none;
+	color: black;	
+}
+
+
+/*CONTENT*/
+
+.content {
+	background-color: white;
+	width: 70%;	
+	float: right;
+}
+
+
+.imgcontent {
+	display: block;
+	width: 100%;
+	border: 1px solid #bdbdbd;
+}
+
+p {
+	padding: 20px;
+}	
+	
+	
+	/*FOOTER*/
+	
+.footer {
+	clear: both;
+	background-color: #bdbdbd;
+	overflow: hidden;
+	
+}
+
+
+
+.footerMenu li {
+	float: left;
+	display: inline-block;
+	
+	font: 14px Arial, sans-serif;
+	margin: 5px;
+	padding: 20px;
+	vertical-align: middle;
+	width: 5%;
+		
+}
+.footerMenu>li a {color: black;}
+
+.rights {
+	float: right;
+	display: inline-block;
+	color: black;
+	font: 14px Arial, sans-serif;
+	margin: 5px;
+	vertical-align: middle;
+	
+}
