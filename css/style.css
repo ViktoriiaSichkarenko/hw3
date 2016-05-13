@@ -6,42 +6,43 @@
 body { 
 	background-color: #f9f9f9;
 	font-family: Arial, sans-serif;
-	}
+}
 	
 .wrapper {
 margin: 0 auto;
-width: 960px;
+width: 962px;
 background-color: #ffffff; 
-padding: 0 50px;
+padding-left: 45px;
+padding-right: 48px;
 
 }
+
 /*HEADER*/
 .header {
 	background-color: #ffffff;
-	padding-top: 40px;
-	margin-bottom: 40px;
+	padding-top: 50px;
 }
 
 .logo {
 	display: block;
-	padding: 40px 0px;
+	padding-bottom: 40px;
 }
+
 .headerMenu {
 	background-color: #5e5e5e;
-background: -moz-linear-gradient(top, #5e5e5e 0%, #444343 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, #5e5e5e), color-stop(100%, #444343));
-background: -webkit-linear-gradient(top, #5e5e5e 0%, #444343 100%);
-background: -o-linear-gradient(top, #5e5e5e 0%, #444343 100%);
-background: -ms-linear-gradient(top, #5e5e5e 0%, #444343 100%);
-background: linear-gradient(to bottom, #5e5e5e 0%, #444343 100%);
-
+	background: -moz-linear-gradient(top, #5e5e5e 0%, #444343 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #5e5e5e), color-stop(100%, #444343));
+	background: -webkit-linear-gradient(top, #5e5e5e 0%, #444343 100%);
+	background: -o-linear-gradient(top, #5e5e5e 0%, #444343 100%);
+	background: -ms-linear-gradient(top, #5e5e5e 0%, #444343 100%);
+	background: linear-gradient(to bottom, #5e5e5e 0%, #444343 100%);
 }
 
 .headerMenu li {
 	display: inline-block;
-	padding: 0 40px;
-
+padding: 0 62px 0 25px;
 }
+
 
 .headerMenu a {
 	color: #ffffff;
@@ -49,74 +50,78 @@ background: linear-gradient(to bottom, #5e5e5e 0%, #444343 100%);
 	line-height: 40px;
 	font-size: 15px;
 }
-.headerMenu a:hover {
+.headerMenu li:hover {
 	background: #494949;
-background: -moz-linear-gradient(top, #494949 0%, #303030 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, #494949), color-stop(100%, #303030));
-background: -webkit-linear-gradient(top, #494949 0%, #303030 100%);
-background: -o-linear-gradient(top, #494949 0%, #303030 100%);
-background: -ms-linear-gradient(top, #494949 0%, #303030 100%);
-background: linear-gradient(to bottom, #494949 0%, #303030 100%);
+	background: -moz-linear-gradient(top, #494949 0%, #303030 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #494949), color-stop(100%, #303030));
+	background: -webkit-linear-gradient(top, #494949 0%, #303030 100%);
+	background: -o-linear-gradient(top, #494949 0%, #303030 100%);
+	background: -ms-linear-gradient(top, #494949 0%, #303030 100%);
+	background: linear-gradient(to bottom, #494949 0%, #303030 100%);
 }
 
 
-/* container */
+/* container= sidebar+content*/
 .container {
 	position: relative;
 	overflow: hidden;
+	padding-top: 40px;
 }
 
 /*SIDEBAR*/
 
-
-
 .sidebar {
 	background-color: #ffffff;
-	width: 240px;
+	width: 238px;
 	border: 1px solid #c8c8c8;
 	float: left;
 }
+
 .sidebarMenu li {
 	border-top: 1px solid #c8c8c8;
 	list-style: none;
-	
 }
+
 .sidebarMenu li:first-child {
 	border-top: 0;
 }
-.sidebarMenu a {
-	color: black;
-	font-size: 15px;
-	line-height: 40px;
-	text-decoration: none;
-	padding-left: 20px;
+
+.sidebarMenu li:hover {
+	background-color: #f9f9f9;
+	padding-left: 12px;
 }
 
+.sidebarMenu a {
+	color: black;
+	font-size: 13px;
+	line-height: 39px;
+	text-decoration: none;
+	padding-left: 23px;
 }
-.sidebarMenu a:hover {
-	background-color: #f9f9f9;
-	padding-left: 30px;
-}
+
+
 
 /*CONTENT*/
 
 .content {
 	background-color: white;
-	width: 700px;	
+	width: 676px;	
 	float: right;
+	margin-left: 45px;
 }
 
 
 .imgcontent {
 	display: block;
-	width: 100%;
 	border: 1px solid #bdbdbd;
 	text-align: center;
-	padding: 40px 0;
+	padding: 45px 0;
 }
 
 p {
-	padding: 20px;
+	padding: 37px 25px 60px 25px;
+	font-size: 13px;
+	line-height: 20px;
 }	
 	
 	
@@ -126,33 +131,38 @@ p {
 	
 	background-color: #e1e1e1;
 	overflow: hidden;
-	
+	margin-bottom: 60px;
 }
-
-
 
 .footerMenu {
 	position: relative;
 	overflow: hidden;
-	
+	font-size: 14px;
 }
 
 .footerMenu li {
 	float: left;
 	list-style: none;
 	line-height: 40px;
-	padding: 0 40px;
+	padding: 0 70px 0 25px;
 }
+
 
 .footerMenu a {
 	display: block;
 	color: #2c2c2c;
 	text-decoration: none;
-	font-size: 15px;
+	
 	
 }
+.footerMenu a:hover {
+	text-decoration: underline;
+
+}
+
 
 .footerMenu .copyright {
 	float: right;
-
+	padding-right: 25px;
 }
+
