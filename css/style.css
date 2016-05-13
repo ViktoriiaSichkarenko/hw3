@@ -106,7 +106,7 @@ padding: 0 62px 0 25px;
 .content {
 	background-color: white;
 	width: 676px;	
-	float: right;
+	float: left;
 	margin-left: 48px;
 }
 
@@ -115,7 +115,8 @@ padding: 0 62px 0 25px;
 	display: block;
 	border: 1px solid #bdbdbd;
 	text-align: center;
-	padding: 45px 0;
+	padding-top: 45px;
+	padding-bottom: 45px;
 }
 
 p {
